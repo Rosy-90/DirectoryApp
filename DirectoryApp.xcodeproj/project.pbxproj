@@ -18,6 +18,7 @@
 		8B7039AB282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */; };
 		8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039B928294A78000BAFB7 /* StaffsViewController.swift */; };
 		8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */; };
+		8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039BF28294CC1000BAFB7 /* Staffs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B7039B928294A78000BAFB7 /* StaffsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewController.swift; sourceTree = "<group>"; };
 		8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		8B7039BF28294CC1000BAFB7 /* Staffs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staffs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		8B703986282949CC000BAFB7 /* DirectoryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B7039BE28294CAB000BAFB7 /* Model */,
 				8B7039BB28294A95000BAFB7 /* Rooms */,
 				8B7039B728294A4D000BAFB7 /* Staffs */,
 				8B703987282949CC000BAFB7 /* AppDelegate.swift */,
@@ -155,6 +158,14 @@
 				8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */,
 			);
 			path = Rooms;
+			sourceTree = "<group>";
+		};
+		8B7039BE28294CAB000BAFB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039BF28294CC1000BAFB7 /* Staffs.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 			files = (
 				8B70398C282949CC000BAFB7 /* ViewController.swift in Sources */,
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
+				8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */,
 				8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */,
 				8B70398A282949CC000BAFB7 /* SceneDelegate.swift in Sources */,
 				8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */,
