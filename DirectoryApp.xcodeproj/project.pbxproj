@@ -27,6 +27,7 @@
 		8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CE28294E63000BAFB7 /* Constants.swift */; };
 		8B7039D2282950EB000BAFB7 /* StaffsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */; };
 		8B7039D428295589000BAFB7 /* StaffViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D328295589000BAFB7 /* StaffViewCell.swift */; };
+		8B7039D82829614A000BAFB7 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D72829614A000BAFB7 /* RoomsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		8B7039CE28294E63000BAFB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewModel.swift; sourceTree = "<group>"; };
 		8B7039D328295589000BAFB7 /* StaffViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewCell.swift; sourceTree = "<group>"; };
+		8B7039D72829614A000BAFB7 /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +160,8 @@
 		8B7039B728294A4D000BAFB7 /* Staffs */ = {
 			isa = PBXGroup;
 			children = (
-				8B7039D0282950D3000BAFB7 /* ViewModel */,
 				8B7039B828294A56000BAFB7 /* View */,
+				8B7039D0282950D3000BAFB7 /* ViewModel */,
 			);
 			path = Staffs;
 			sourceTree = "<group>";
@@ -176,7 +178,8 @@
 		8B7039BB28294A95000BAFB7 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
-				8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */,
+				8B7039D5282960C6000BAFB7 /* View */,
+				8B7039D6282960E9000BAFB7 /* ViewModel */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -220,6 +223,22 @@
 			isa = PBXGroup;
 			children = (
 				8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B7039D5282960C6000BAFB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B7039D6282960E9000BAFB7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039D72829614A000BAFB7 /* RoomsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -369,6 +388,7 @@
 				8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */,
 				8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */,
 				8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */,
+				8B7039D82829614A000BAFB7 /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
