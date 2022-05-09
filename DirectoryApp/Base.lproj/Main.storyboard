@@ -98,6 +98,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="5cL-db-KPt" id="XYX-Bz-F0w"/>
+                                    <outlet property="delegate" destination="5cL-db-KPt" id="Cjx-1n-YUt"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="66H-W8-NSP"/>
@@ -110,6 +114,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Staffs" id="dya-Vb-wvR"/>
+                    <connections>
+                        <outlet property="collectionView" destination="cRL-Oe-aZh" id="pqm-1Q-2iW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nt-CH-OYi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
