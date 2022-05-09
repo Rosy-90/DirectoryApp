@@ -12,7 +12,6 @@
 		8B70398F282949CC000BAFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B70398D282949CC000BAFB7 /* Main.storyboard */; };
 		8B703991282949CD000BAFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B703990282949CD000BAFB7 /* Assets.xcassets */; };
 		8B703994282949CD000BAFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B703992282949CD000BAFB7 /* LaunchScreen.storyboard */; };
-		8B70399F282949CD000BAFB7 /* DirectoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70399E282949CD000BAFB7 /* DirectoryAppTests.swift */; };
 		8B7039A9282949CD000BAFB7 /* DirectoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039A8282949CD000BAFB7 /* DirectoryAppUITests.swift */; };
 		8B7039AB282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */; };
 		8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039B928294A78000BAFB7 /* StaffsViewController.swift */; };
@@ -32,6 +31,9 @@
 		8B7039E028297A24000BAFB7 /* StaffsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039DF28297A24000BAFB7 /* StaffsViewModelTests.swift */; };
 		8B7039E228297B2D000BAFB7 /* StaffsSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039E128297B2D000BAFB7 /* StaffsSuccessResponse.json */; };
 		8B7039E528297D5B000BAFB7 /* StaffsFailureResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039E428297D5B000BAFB7 /* StaffsFailureResponse.json */; };
+		8B7039EA2829B64F000BAFB7 /* RoomsSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039E92829B64F000BAFB7 /* RoomsSuccessResponse.json */; };
+		8B7039EC2829B66F000BAFB7 /* RoomsFailureResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039EB2829B66F000BAFB7 /* RoomsFailureResponse.json */; };
+		8B7039EE2829B720000BAFB7 /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,6 @@
 		8B703993282949CD000BAFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B703995282949CD000BAFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B70399A282949CD000BAFB7 /* DirectoryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B70399E282949CD000BAFB7 /* DirectoryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppTests.swift; sourceTree = "<group>"; };
 		8B7039A4282949CD000BAFB7 /* DirectoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7039A8282949CD000BAFB7 /* DirectoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppUITests.swift; sourceTree = "<group>"; };
 		8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -81,6 +82,9 @@
 		8B7039DF28297A24000BAFB7 /* StaffsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewModelTests.swift; sourceTree = "<group>"; };
 		8B7039E128297B2D000BAFB7 /* StaffsSuccessResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StaffsSuccessResponse.json; sourceTree = "<group>"; };
 		8B7039E428297D5B000BAFB7 /* StaffsFailureResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StaffsFailureResponse.json; sourceTree = "<group>"; };
+		8B7039E92829B64F000BAFB7 /* RoomsSuccessResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomsSuccessResponse.json; sourceTree = "<group>"; };
+		8B7039EB2829B66F000BAFB7 /* RoomsFailureResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomsFailureResponse.json; sourceTree = "<group>"; };
+		8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,9 +154,10 @@
 		8B70399D282949CD000BAFB7 /* DirectoryAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B70399E282949CD000BAFB7 /* DirectoryAppTests.swift */,
 				8B7039DD28297687000BAFB7 /* MockService.swift */,
 				8B7039DF28297A24000BAFB7 /* StaffsViewModelTests.swift */,
+				8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */,
+				8B7039E628299387000BAFB7 /* RoomsSampleResponse */,
 				8B7039E328297B3C000BAFB7 /* StaffsSampleResponse */,
 			);
 			path = DirectoryAppTests;
@@ -261,6 +266,15 @@
 				8B7039E428297D5B000BAFB7 /* StaffsFailureResponse.json */,
 			);
 			path = StaffsSampleResponse;
+			sourceTree = "<group>";
+		};
+		8B7039E628299387000BAFB7 /* RoomsSampleResponse */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039E92829B64F000BAFB7 /* RoomsSuccessResponse.json */,
+				8B7039EB2829B66F000BAFB7 /* RoomsFailureResponse.json */,
+			);
+			path = RoomsSampleResponse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,8 +391,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7039EC2829B66F000BAFB7 /* RoomsFailureResponse.json in Resources */,
 				8B7039E528297D5B000BAFB7 /* StaffsFailureResponse.json in Resources */,
 				8B7039E228297B2D000BAFB7 /* StaffsSuccessResponse.json in Resources */,
+				8B7039EA2829B64F000BAFB7 /* RoomsSuccessResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,8 +434,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B70399F282949CD000BAFB7 /* DirectoryAppTests.swift in Sources */,
 				8B7039E028297A24000BAFB7 /* StaffsViewModelTests.swift in Sources */,
+				8B7039EE2829B720000BAFB7 /* RoomsViewModelTests.swift in Sources */,
 				8B7039DE28297687000BAFB7 /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
