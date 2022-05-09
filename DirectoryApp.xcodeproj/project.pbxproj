@@ -26,6 +26,7 @@
 		8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CC28294E37000BAFB7 /* NetworkError.swift */; };
 		8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CE28294E63000BAFB7 /* Constants.swift */; };
 		8B7039D2282950EB000BAFB7 /* StaffsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */; };
+		8B7039D428295589000BAFB7 /* StaffViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D328295589000BAFB7 /* StaffViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8B7039CC28294E37000BAFB7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8B7039CE28294E63000BAFB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewModel.swift; sourceTree = "<group>"; };
+		8B7039D328295589000BAFB7 /* StaffViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				8B7039B928294A78000BAFB7 /* StaffsViewController.swift */,
+				8B7039D328295589000BAFB7 /* StaffViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
 				8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */,
 				8B7039C328294D7E000BAFB7 /* JsonDecodable.swift in Sources */,
+				8B7039D428295589000BAFB7 /* StaffViewCell.swift in Sources */,
 				8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */,
 				8B7039C828294DDF000BAFB7 /* NetworkClient.swift in Sources */,
 				8B70398A282949CC000BAFB7 /* SceneDelegate.swift in Sources */,
