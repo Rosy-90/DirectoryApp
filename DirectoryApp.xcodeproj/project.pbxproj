@@ -25,6 +25,7 @@
 		8B7039CA28294DFD000BAFB7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039C928294DFD000BAFB7 /* Service.swift */; };
 		8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CC28294E37000BAFB7 /* NetworkError.swift */; };
 		8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CE28294E63000BAFB7 /* Constants.swift */; };
+		8B7039D2282950EB000BAFB7 /* StaffsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		8B7039C928294DFD000BAFB7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8B7039CC28294E37000BAFB7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8B7039CE28294E63000BAFB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		8B7039B728294A4D000BAFB7 /* Staffs */ = {
 			isa = PBXGroup;
 			children = (
+				8B7039D0282950D3000BAFB7 /* ViewModel */,
 				8B7039B828294A56000BAFB7 /* View */,
 			);
 			path = Staffs;
@@ -208,6 +211,14 @@
 				8B7039CE28294E63000BAFB7 /* Constants.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8B7039D0282950D3000BAFB7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B70398C282949CC000BAFB7 /* ViewController.swift in Sources */,
+				8B7039D2282950EB000BAFB7 /* StaffsViewModel.swift in Sources */,
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
 				8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */,
 				8B7039C328294D7E000BAFB7 /* JsonDecodable.swift in Sources */,
