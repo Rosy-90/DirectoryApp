@@ -16,6 +16,8 @@
 		8B70399F282949CD000BAFB7 /* DirectoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70399E282949CD000BAFB7 /* DirectoryAppTests.swift */; };
 		8B7039A9282949CD000BAFB7 /* DirectoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039A8282949CD000BAFB7 /* DirectoryAppUITests.swift */; };
 		8B7039AB282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */; };
+		8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039B928294A78000BAFB7 /* StaffsViewController.swift */; };
+		8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8B7039A4282949CD000BAFB7 /* DirectoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7039A8282949CD000BAFB7 /* DirectoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppUITests.swift; sourceTree = "<group>"; };
 		8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B7039B928294A78000BAFB7 /* StaffsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewController.swift; sourceTree = "<group>"; };
+		8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		8B703986282949CC000BAFB7 /* DirectoryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B7039BB28294A95000BAFB7 /* Rooms */,
+				8B7039B728294A4D000BAFB7 /* Staffs */,
 				8B703987282949CC000BAFB7 /* AppDelegate.swift */,
 				8B703989282949CC000BAFB7 /* SceneDelegate.swift */,
 				8B70398B282949CC000BAFB7 /* ViewController.swift */,
@@ -125,6 +131,30 @@
 				8B7039AA282949CD000BAFB7 /* DirectoryAppUITestsLaunchTests.swift */,
 			);
 			path = DirectoryAppUITests;
+			sourceTree = "<group>";
+		};
+		8B7039B728294A4D000BAFB7 /* Staffs */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039B828294A56000BAFB7 /* View */,
+			);
+			path = Staffs;
+			sourceTree = "<group>";
+		};
+		8B7039B828294A56000BAFB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039B928294A78000BAFB7 /* StaffsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B7039BB28294A95000BAFB7 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */,
+			);
+			path = Rooms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			files = (
 				8B70398C282949CC000BAFB7 /* ViewController.swift in Sources */,
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
+				8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */,
 				8B70398A282949CC000BAFB7 /* SceneDelegate.swift in Sources */,
+				8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
