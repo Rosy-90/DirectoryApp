@@ -19,6 +19,12 @@
 		8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039B928294A78000BAFB7 /* StaffsViewController.swift */; };
 		8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */; };
 		8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039BF28294CC1000BAFB7 /* Staffs.swift */; };
+		8B7039C328294D7E000BAFB7 /* JsonDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039C228294D7E000BAFB7 /* JsonDecodable.swift */; };
+		8B7039C628294DBE000BAFB7 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039C528294DBE000BAFB7 /* EndPoints.swift */; };
+		8B7039C828294DDF000BAFB7 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039C728294DDF000BAFB7 /* NetworkClient.swift */; };
+		8B7039CA28294DFD000BAFB7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039C928294DFD000BAFB7 /* Service.swift */; };
+		8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CC28294E37000BAFB7 /* NetworkError.swift */; };
+		8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039CE28294E63000BAFB7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		8B7039B928294A78000BAFB7 /* StaffsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffsViewController.swift; sourceTree = "<group>"; };
 		8B7039BC28294AC6000BAFB7 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		8B7039BF28294CC1000BAFB7 /* Staffs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staffs.swift; sourceTree = "<group>"; };
+		8B7039C228294D7E000BAFB7 /* JsonDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodable.swift; sourceTree = "<group>"; };
+		8B7039C528294DBE000BAFB7 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		8B7039C728294DDF000BAFB7 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8B7039C928294DFD000BAFB7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8B7039CC28294E37000BAFB7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		8B7039CE28294E63000BAFB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,9 @@
 		8B703986282949CC000BAFB7 /* DirectoryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B7039CB28294E25000BAFB7 /* Utility */,
+				8B7039C428294DA9000BAFB7 /* Service */,
+				8B7039C128294D67000BAFB7 /* Extensions */,
 				8B7039BE28294CAB000BAFB7 /* Model */,
 				8B7039BB28294A95000BAFB7 /* Rooms */,
 				8B7039B728294A4D000BAFB7 /* Staffs */,
@@ -166,6 +181,33 @@
 				8B7039BF28294CC1000BAFB7 /* Staffs.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8B7039C128294D67000BAFB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039C228294D7E000BAFB7 /* JsonDecodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B7039C428294DA9000BAFB7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039C528294DBE000BAFB7 /* EndPoints.swift */,
+				8B7039C728294DDF000BAFB7 /* NetworkClient.swift */,
+				8B7039C928294DFD000BAFB7 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B7039CB28294E25000BAFB7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8B7039CC28294E37000BAFB7 /* NetworkError.swift */,
+				8B7039CE28294E63000BAFB7 /* Constants.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +344,15 @@
 				8B70398C282949CC000BAFB7 /* ViewController.swift in Sources */,
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
 				8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */,
+				8B7039C328294D7E000BAFB7 /* JsonDecodable.swift in Sources */,
 				8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */,
+				8B7039C828294DDF000BAFB7 /* NetworkClient.swift in Sources */,
 				8B70398A282949CC000BAFB7 /* SceneDelegate.swift in Sources */,
+				8B7039CA28294DFD000BAFB7 /* Service.swift in Sources */,
+				8B7039C628294DBE000BAFB7 /* EndPoints.swift in Sources */,
+				8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */,
 				8B7039BA28294A78000BAFB7 /* StaffsViewController.swift in Sources */,
+				8B7039CF28294E63000BAFB7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
