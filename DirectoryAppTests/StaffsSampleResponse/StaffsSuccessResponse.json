@@ -1,0 +1,22 @@
+[
+    {
+        "createdAt": "2022-01-24T17:02:23.729Z",
+        "firstName": "Maggie",
+        "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+        "lastName": "Brekke",
+        "email": "Crystel.Nicolas61@hotmail.com",
+        "jobtitle": "Future Functionality Strategist",
+        "favouriteColor": "pink",
+        "id": "1"
+    },
+    {
+        "createdAt": "2022-01-24T22:47:43.227Z",
+        "firstName": "Armando",
+        "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+        "lastName": "Weber",
+        "email": "Milton.Wisoky@gmail.com",
+        "jobtitle": "Principal Accounts Developer",
+        "favouriteColor": "sky blue",
+        "id": "2"
+    }
+]
