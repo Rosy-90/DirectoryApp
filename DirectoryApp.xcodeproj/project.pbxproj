@@ -36,6 +36,7 @@
 		8B7039EE2829B720000BAFB7 /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */; };
 		8B7039F02829BAAC000BAFB7 /* StaffDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039EF2829BAAC000BAFB7 /* StaffDetailViewController.swift */; };
 		8B7039F22829BD1D000BAFB7 /* StaffDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039F12829BD1D000BAFB7 /* StaffDetailsViewModel.swift */; };
+		8B7039F6282A5B39000BAFB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039F5282A5B39000BAFB7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
 		8B7039EF2829BAAC000BAFB7 /* StaffDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailViewController.swift; sourceTree = "<group>"; };
 		8B7039F12829BD1D000BAFB7 /* StaffDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailsViewModel.swift; sourceTree = "<group>"; };
+		8B7039F5282A5B39000BAFB7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		8B70397B282949CC000BAFB7 = {
 			isa = PBXGroup;
 			children = (
+				8B7039F5282A5B39000BAFB7 /* README.md */,
 				8B703986282949CC000BAFB7 /* DirectoryApp */,
 				8B70399D282949CD000BAFB7 /* DirectoryAppTests */,
 				8B7039A7282949CD000BAFB7 /* DirectoryAppUITests */,
@@ -389,6 +392,7 @@
 			files = (
 				8B703994282949CD000BAFB7 /* LaunchScreen.storyboard in Resources */,
 				8B703991282949CD000BAFB7 /* Assets.xcassets in Resources */,
+				8B7039F6282A5B39000BAFB7 /* README.md in Resources */,
 				8B70398F282949CC000BAFB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
