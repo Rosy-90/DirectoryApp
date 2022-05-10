@@ -34,6 +34,8 @@
 		8B7039EA2829B64F000BAFB7 /* RoomsSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039E92829B64F000BAFB7 /* RoomsSuccessResponse.json */; };
 		8B7039EC2829B66F000BAFB7 /* RoomsFailureResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7039EB2829B66F000BAFB7 /* RoomsFailureResponse.json */; };
 		8B7039EE2829B720000BAFB7 /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */; };
+		8B7039F02829BAAC000BAFB7 /* StaffDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039EF2829BAAC000BAFB7 /* StaffDetailViewController.swift */; };
+		8B7039F22829BD1D000BAFB7 /* StaffDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7039F12829BD1D000BAFB7 /* StaffDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		8B7039E92829B64F000BAFB7 /* RoomsSuccessResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomsSuccessResponse.json; sourceTree = "<group>"; };
 		8B7039EB2829B66F000BAFB7 /* RoomsFailureResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomsFailureResponse.json; sourceTree = "<group>"; };
 		8B7039ED2829B720000BAFB7 /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
+		8B7039EF2829BAAC000BAFB7 /* StaffDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailViewController.swift; sourceTree = "<group>"; };
+		8B7039F12829BD1D000BAFB7 /* StaffDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 			children = (
 				8B7039B928294A78000BAFB7 /* StaffsViewController.swift */,
 				8B7039D328295589000BAFB7 /* StaffViewCell.swift */,
+				8B7039EF2829BAAC000BAFB7 /* StaffDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				8B7039D1282950EB000BAFB7 /* StaffsViewModel.swift */,
+				8B7039F12829BD1D000BAFB7 /* StaffDetailsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -412,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7039F02829BAAC000BAFB7 /* StaffDetailViewController.swift in Sources */,
 				8B7039D2282950EB000BAFB7 /* StaffsViewModel.swift in Sources */,
 				8B703988282949CC000BAFB7 /* AppDelegate.swift in Sources */,
 				8B7039C028294CC1000BAFB7 /* Staffs.swift in Sources */,
@@ -421,6 +428,7 @@
 				8B7039BD28294AC6000BAFB7 /* RoomsViewController.swift in Sources */,
 				8B7039C828294DDF000BAFB7 /* NetworkClient.swift in Sources */,
 				8B70398A282949CC000BAFB7 /* SceneDelegate.swift in Sources */,
+				8B7039F22829BD1D000BAFB7 /* StaffDetailsViewModel.swift in Sources */,
 				8B7039CA28294DFD000BAFB7 /* Service.swift in Sources */,
 				8B7039C628294DBE000BAFB7 /* EndPoints.swift in Sources */,
 				8B7039CD28294E37000BAFB7 /* NetworkError.swift in Sources */,

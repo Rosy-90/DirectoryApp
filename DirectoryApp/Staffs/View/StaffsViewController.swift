@@ -65,6 +65,15 @@ extension StaffsViewController: UICollectionViewDelegateFlowLayout {
         let cellWidth = (collectionView.bounds.width - (sideInsets + spaceBetween)) / CGFloat(columnCount)
         return CGSize(width: cellWidth, height: cellWidth)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let staffDetails =  staffViewModel.getStaffDetails(for:indexPath.row)
+        performSegue(withIdentifier: "showStaffDetails", sender: staffDetails)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //
+    }
 }
 
 extension StaffsViewController: StaffViewModelDelegate {
