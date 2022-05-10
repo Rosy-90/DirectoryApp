@@ -9,7 +9,7 @@ import XCTest
 @testable import DirectoryApp
 
 class RoomsViewModelTests: XCTestCase {
-
+    
     var mockService: MockService!
     var viewModel: RoomsViewModel!
     
@@ -17,10 +17,7 @@ class RoomsViewModelTests: XCTestCase {
         mockService = MockService()
         viewModel = RoomsViewModel(service: mockService)
     }
-//    var itemCount: Int {get}
-//    func getRoomsInfo()
-//    func getRoomIdAndStatus(for row: Int) -> (id: String, status: Bool)
-
+    
     func testNumberOfRoomsCount() {
         mockService.responseFileName = "RoomsSuccessResponse"
         viewModel.getRoomsInfo()
