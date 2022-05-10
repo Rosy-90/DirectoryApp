@@ -72,7 +72,9 @@ extension StaffsViewController: UICollectionViewDelegateFlowLayout {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //
+        if let staffsDetaislVc = segue.destination as? StaffDetailViewController, let staffDetails = sender as? StaffDetails {
+            staffsDetaislVc.viewModel = StaffDetailsViewModel(staffDetails: staffDetails)
+        }
     }
 }
 

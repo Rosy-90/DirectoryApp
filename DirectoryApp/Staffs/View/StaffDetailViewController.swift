@@ -24,12 +24,12 @@ class StaffDetailViewController: UIViewController {
     }
     
     func setupUI() {
-        lblFirstName.text = viewModel.firstName
-        lblLastName.text = viewModel.lastName
-        lblEmail.text = viewModel.email
-        lblJobTitle.text = viewModel.jobtitle
-        lblStaffId.text = viewModel.id
-        lblFavColor.text = viewModel.favouriteColor
+        lblFirstName.text = viewModel.staffDetails.firstName
+        lblLastName.text = viewModel.staffDetails.lastName
+        lblEmail.text = viewModel.staffDetails.email
+        lblJobTitle.text = viewModel.staffDetails.jobtitle
+        lblStaffId.text = "\(viewModel.staffDetails.staffID)"
+        lblFavColor.text = viewModel.staffDetails.favouriteColor
     }
 
 }

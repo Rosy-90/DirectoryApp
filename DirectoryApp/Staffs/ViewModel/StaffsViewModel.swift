@@ -12,16 +12,20 @@ protocol StaffViewModelDelegate: AnyObject {
     func showError()
 }
 
+struct StaffDetails {
+    let firstName: String
+    let lastName: String
+    let email: String
+    let jobtitle: String
+    let staffID: String
+    let favouriteColor: String
+}
+
 protocol StaffViewModelProtocol {
     var itemCount: Int {get}
     func getStaffInfo()
     func getStaffNameAndImageId(for row: Int) -> (imageName: String, firstName: String)
-    func getStaffDetails(for row: Int) -> (firstName: String,
-                                           lastName: String,
-                                           email: String,
-                                           jobtitle: String,
-                                           staffID: String,
-                                           favouriteColor: String)
+    func getStaffDetails(for row: Int) -> StaffDetails?
     var delegate: StaffViewModelDelegate? { get set }
 }
 
@@ -71,10 +75,10 @@ extension StaffsViewModel: StaffViewModelProtocol {
         return (imageRefId, staffInfo.firstName)
     }
     
-    func getStaffDetails(for row: Int) -> (firstName: String, lastName: String, email: String, jobtitle: String, staffID: String, favouriteColor: String) {
+    func getStaffDetails(for row: Int) -> StaffDetails? {
         guard  itemCount > row , row >= 0 , let staffInfo = staffsInfo?[row] else {
-            return ("", "", "", "", "", "")
+            return nil
         }
-        return (staffInfo.firstName, staffInfo.lastName, staffInfo.email, staffInfo.jobtitle, staffInfo.id, staffInfo.favouriteColor )
+        return StaffDetails(firstName: staffInfo.firstName, lastName: staffInfo.lastName, email: staffInfo.email, jobtitle: staffInfo.jobtitle, staffID: staffInfo.id, favouriteColor: staffInfo.favouriteColor)
     }
 }
